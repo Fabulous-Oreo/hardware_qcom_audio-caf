@@ -22,9 +22,10 @@
 #include <string.h>
 #include <time.h>
 #include <sys/prctl.h>
+#include <pthread.h>
 
 #include <cutils/list.h>
-#include <cutils/log.h>
+#include <log/log.h>
 #include <system/thread_defs.h>
 #include <tinyalsa/asoundlib.h>
 #include <audio_effects/effect_visualizer.h>
